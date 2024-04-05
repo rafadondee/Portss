@@ -1,0 +1,1255 @@
+
+
+.home h1 {
+  font-size: 700%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 10%; /* Colocado no topo */
+  left: 130px; /* Colocado no lado esquerdo */
+  color: rgb(8, 82, 28);
+}
+
+.home p{
+  font-size: 170%;
+  font-family: 'Poppins';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 50%; /* Colocado no topo */
+  left: 10%; /* Colocado no lado esquerdo */
+
+}
+
+
+.home img {
+  position: absolute;
+  top: 10%;
+  right: 8%; /* Colocado no lado direito */
+  height: 70%;
+}
+ 
+
+.home button {
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 38%;
+  position: absolute; /* Alterado para absolute */
+  left: 10%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+  
+}
+
+
+button:hover {
+  border-color: rgb(18, 230, 75);
+  background-color:rgb(18, 230, 75);
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  button {
+    background-color: #d4d4d4d3;
+  }
+}
+ 
+
+/* CSS da introducao.jsx*/
+
+/* Títulos da introdução - pgn sobre*/
+
+.titulo-header{
+  font-size: 220%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 3%; /* Colocado no topo */
+  left:3%; /* Colocado no lado esquerdo */
+  color: rgb(255, 255, 255);
+  
+
+
+}
+
+/*divs branquelas*/
+
+.container {
+
+  background-color:  #efeded;  /* Adicione uma cor de fundo */
+  height: 50%;
+  padding: 21%; /* Adicione espaçamento interno */
+  margin-top: -166%;
+
+}
+
+.container2 {
+
+  background-color:  #efeded;  /* Adicione uma cor de fundo */
+  height: 50%;
+  padding: 18%; /* Adicione espaçamento interno */
+  margin-top: 25%;
+
+}
+
+
+.container3 {
+
+  background-color: #efeded; /* Adicione uma cor de fundo */
+  height: 50%;
+  padding: 30%; /* Adicione espaçamento interno */
+  margin-top: 24%;
+
+}
+
+
+
+
+
+.introducao h1{
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+
+}
+
+
+.introducao h2{
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 165%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+
+}
+
+
+
+.titulo1{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 295%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+
+}
+
+
+
+.cabecalho {
+  background-color: #363535;
+  color: #fff;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cabecalho h1 {
+  margin: 0;
+}
+
+ .botao-home {
+  
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: -1.5%;
+  position: absolute; /* Alterado para absolute */
+  left: 50%; /* Colocado no lado esquerdo */
+  background-color: #e6e4e4;
+ 
+}
+
+.botao-introducao {
+  
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: -1.5%;
+  position: absolute; /* Alterado para absolute */
+  left: 60%; /* Colocado no lado esquerdo */
+  background-color: #b3b0b0;
+ 
+}
+
+
+.botao-materias {
+  
+ 
+  border-radius: 100px;
+  border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #fff;
+    margin-top: -1.5%;
+    position: absolute; /* Alterado para absolute */
+    left: 70%; /* Colocado no lado esquerdo */
+    background-color: #636060;
+   
+  }
+
+
+  .botao-ppe {
+  
+ 
+    border-radius: 100px;
+    border: 1px solid transparent;
+      padding: 0.6em 1.2em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: Poppins;
+      color: #fff;
+      margin-top: -1.5%;
+      position: absolute; /* Alterado para absolute */
+      left: 82%; /* Colocado no lado esquerdo */
+      background-color: #292828;
+     
+    }
+
+ .botao-contato {
+  
+ 
+border-radius: 100px;
+border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #fff;
+  margin-top: -1.5%;
+  position: absolute; /* Alterado para absolute */
+  left: 90%; /* Colocado no lado esquerdo */
+  background-color: #000000;
+ 
+}
+
+/* Esse body é pra ajeitar o cabeçalho - header */
+body {
+  margin: 0;
+}
+
+.botao-contato:hover, .botao-home:hover {
+  border-color: rgb(18, 230, 75);
+  background-color:rgb(18, 230, 75);
+}
+
+
+.sobre{
+  font-size: 120%;
+  font-family: 'Poppins';
+  position: absolute;
+  top: 99.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+.botao-flecha  {
+  width: 10%; /* Garante que a imagem do botão ocupe todo o espaço disponível */
+  height:15%; /* Mantém a proporção da imagem */
+  position: fixed; /* Define a posição fixa para o botão */
+  bottom: 2%; /* Define a distância do botão a partir do fundo */
+  right: -1%; /* Define a distância do botão a partir da direita */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+ 
+
+
+}
+
+
+/*Rotina*/
+
+/* styles.css */
+.rotina-table {
+  width: 70%;
+  height: 50%;
+  margin-top:31%;
+  left: 15%;
+  position: absolute;
+  font-size: 110%;
+  font-family: Poppins;
+  border-radius: 1rem;
+  border-collapse: collapse;
+  background-color: #fff;
+
+  border-spacing: 1rem;
+  text-align: center;
+  animation: appear 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+
+
+}
+
+
+ /* Carrossel */
+
+.slick-slider {
+  /* Adicione estilos para o contêiner do carrossel */
+  margin-top: 150% ; /* Centralizar o carrossel */
+  width: 50%;
+  left: 22.5%;
+
+  
+}
+
+.slick-slide img {
+  /* Definir largura máxima para as imagens dentro dos slides */
+ width: 70%; /* Definir largura máxima das imagens para ocupar todo o espaço do slide */
+  height: 70%; /* Altura automática para manter a proporção */
+  left: 10%;
+  padding: 10%;
+  padding-left: 15%;
+ 
+
+}
+
+
+.slick-prev,
+.slick-next {
+  /* Adicione estilos para os botões de navegação do carrossel */
+  width: 6.5%; /* Definir largura dos botões */
+  height: 9%; /* Definir altura dos botões */
+  background-color: #000000; /* Cor de fundo dos botões */
+  border-radius: 50%; /* Borda arredondada para criar um botão circular */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  /* Estilos de hover para os botões de navegação */
+  background-color:rgb(18, 230, 75);
+}
+
+  /* Fim do Carrossel */
+
+
+
+
+/*Capa das matérias*/
+
+
+.cards-container {
+  display: flex; /* Torna o container um flex container */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando necessário */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  font-family: 'Poppins';
+}
+
+.matematica-card,
+.natureza-card,
+.humanas-card,
+.linguagens-card,
+.tecnico-card,
+.escolha-card {
+  flex: 0 0 30%; /* Define a largura de cada card para ocupar 30% do container */
+  margin: 0.75%; /* Adiciona uma margem entre os cards */
+  background-color: #f5f5f5; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 1%; /* Espaçamento interno */
+  text-align: center; /* Centraliza o conteúdo */
+  transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+  cursor: pointer; /* Altera o cursor ao passar o mouse */
+  width: 50%;
+}
+
+.matematica-card:hover,
+.natureza-card:hover,
+.humanas-card:hover,
+.linguagens-card:hover,
+.tecnico-card:hover,
+.escolha-card:hover {
+  transform: translateY(-2px); /* Efeito de levantamento ao passar o mouse */
+}
+
+.matematica-card h2,
+.natureza-card h2,
+.humanas-card h2,
+.linguagens-card h2,
+.tecnico-card h2,
+.escolha-card h2 {
+  font-size: 20px; /* Tamanho da fonte do título */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.matematica-card  {
+  width: 20%; /* Define a largura da imagem como 100% */
+  height: 60%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+
+}
+
+.matematica-card img {
+  width: 40%; /* Define a largura da imagem como 100% */
+  height: 60%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.natureza-card  {
+  width: 20%; /* Define a largura da imagem como 100% */
+  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+
+}
+
+.natureza-card img {
+  width: 40.5%; /* Define a largura da imagem como 100% */
+  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.humanas-card  {
+  width: 20%; /* Define a largura da imagem como 100% */
+  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+
+}
+
+.humanas-card img {
+  width: 37%; /* Define a largura da imagem como 100% */
+  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.linguagens-card  {
+  width: 20%; /* Define a largura da imagem como 100% */
+  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+
+}
+
+.linguagens-card img {
+  width: 38.5%; /* Define a largura da imagem como 100% */
+  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.tecnico-card  {
+  width: 20%; /* Define a largura da imagem como 100% */
+  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+
+}
+
+.tecnico-card img {
+  width: 37%; /* Define a largura da imagem como 100% */
+  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.escolha-card  {
+  width: 20%; /* Define a largura da imagem como 100% */
+  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+
+}
+
+.escolha-card img {
+  width: 39%; /* Define a largura da imagem como 100% */
+  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+/*Pgn de matematica */
+
+
+.matematica h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
+.botao-arcosEangulos{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 27%;
+  position: absolute; /* Alterado para absolute */
+  left: 20%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-av1Mtm{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 14%;
+  position: absolute; /* Alterado para absolute */
+  top: 50%; /* Colocado no topo */
+  left: 20%; /* Colocado no lado esquerdo */
+}
+/*video iframe mtm*/
+.video-gabigol{
+
+  margin-top: 13%; /* Colocado no topo */
+  margin-left: 60%; /* Colocado no lado esquerdo */
+  border: none;
+}
+
+.natureza h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
+.botao-organica{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 25%;
+  position: absolute; /* Alterado para absolute */
+  left: 20%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-organica{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 20%; /* Colocado no lado esquerdo */
+}
+
+.botao-evolucionismo{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 25%;
+  position: absolute; /* Alterado para absolute */
+  left: 45%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-evolucionismo{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
+}
+
+.botao-circuitos{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 25%;
+  position: absolute; /* Alterado para absolute */
+  left: 73%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-circuitos{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 73%; /* Colocado no lado esquerdo */
+}
+
+/*Atividades humanas*/
+.humanas h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
+
+.botao-1917{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 25%;
+  position: absolute; /* Alterado para absolute */
+  left: 20%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-1917{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 20%; /* Colocado no lado esquerdo */
+}
+
+.botao-paises{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 25%;
+  position: absolute; /* Alterado para absolute */
+  left: 44%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-paises{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 44%; /* Colocado no lado esquerdo */
+}
+
+.botao-imperialismo{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 25%;
+  position: absolute; /* Alterado para absolute */
+  left: 72%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-imperialismo{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 72%; /* Colocado no lado esquerdo */
+}
+
+
+/*Atividade linguagens*/
+
+.linguagens h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
+
+.botao-sobremim{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 23%;
+  position: absolute; /* Alterado para absolute */
+  left: 17%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-sobremim{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 40%; /* Colocado no topo */
+  left: 17%; /* Colocado no lado esquerdo */
+
+
+}
+
+
+.botao-past{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 23%;
+  position: absolute; /* Alterado para absolute */
+  left: 45%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-past{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 40%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
+
+
+}
+
+.botao-modernismo{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 23%;
+  position: absolute; /* Alterado para absolute */
+  left: 70%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-modernismo{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 40%; /* Colocado no topo */
+  left: 70%; /* Colocado no lado esquerdo */
+
+
+}
+
+.tecnico h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
+.escolha h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
+
+.loader {
+  width: 112px;
+  height: 112px;
+  margin-top: -8%;
+  margin-left:4%;
+}
+
+.box1,
+.box2,
+.box3 {
+  border: 16px solid #000000;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+}
+
+.box1 {
+  width: 112px;
+  height: 48px;
+  margin-top: 64px;
+  margin-left: 0px;
+  animation: abox1 4s 1s forwards ease-in-out infinite;
+}
+
+.box2 {
+  width: 48px;
+  height: 48px;
+  margin-top: 0px;
+  margin-left: 0px;
+  animation: abox2 4s 1s forwards ease-in-out infinite;
+}
+
+.box3 {
+  width: 48px;
+  height: 48px;
+  margin-top: 0px;
+  margin-left: 64px;
+  animation: abox3 4s 1s forwards ease-in-out infinite;
+}
+
+@keyframes abox1 {
+  0% {
+    width: 112px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+
+  12.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+
+  25% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+
+  37.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+
+  50% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+
+  62.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+
+  75% {
+    width: 48px;
+    height: 112px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  87.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  100% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@keyframes abox2 {
+  0% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  12.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  25% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  37.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  50% {
+    width: 112px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  62.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+
+  75% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+
+  87.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+
+  100% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+}
+
+@keyframes abox3 {
+  0% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+
+  12.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+
+  25% {
+    width: 48px;
+    height: 112px;
+    margin-top: 0px;
+    margin-left: 64px;
+  }
+
+  37.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 64px;
+  }
+
+  50% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 64px;
+  }
+
+  62.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 64px;
+  }
+
+  75% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 64px;
+  }
+
+  87.5% {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 64px;
+  }
+
+  100% {
+    width: 112px;
+    height: 48px;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+}
+
+
+
+.contato h1{
+ font-family: 'Poppins';
+ margin-left: 15%;
+ margin-top: 20%;
+
+}
+
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 15px #00000027;
+  padding: 15px 10px;
+  border-radius: 5em;
+  margin-top: -7%;
+  margin-left: 55%;
+  width: 30%;
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17.5%;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 0%;
+  margin-right: 10%; /* Adicione margem direita para dar espaçamento entre os ícones */
+  background-color: #fff;
+  box-shadow: 0px 0px 6px #00000027;
+  transition: 0.3s;
+}
+
+
+
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.social-buttons svg {
+  transition: 0.3s;
+  height: 20px;
+}
+
+
+.github {
+  background-color: #333;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
+.instagram {
+  background-color: #c13584;
+}
+
+.instagram svg {
+  fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+  fill: #c13584;
+}
+
+
+
+
+.cubes {
+  position: absolute;
+  top: 60%;
+  left: 6%;
+  transform-style: preserve-3d;
+}
+
+.loop {
+  transform: rotateX(-35deg) rotateY(-45deg) translateZ(1.5625em);
+}
+
+@keyframes s {
+  to {
+    transform: scale3d(0.2, 0.2, 0.2);
+  }
+}
+
+.item {
+  margin: -1.5625em;
+  width: 3.125em;
+  height: 3.125em;
+  transform-origin: 50% 50% -1.5625em;
+  box-shadow: 0 0 0.125em currentColor;
+  background: currentColor;
+  animation: s 0.6s cubic-bezier(0.45, 0.03, 0.51, 0.95) infinite alternate;
+}
+
+.item:before,
+.item:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  transform-origin: 0 100%;
+  box-shadow: inherit;
+  background: currentColor;
+  content: "";
+}
+
+.item:before {
+  bottom: 100%;
+  transform: rotateX(90deg);
+}
+
+.item:after {
+  left: 100%;
+  transform: rotateY(90deg);
+}
+
+.item:nth-child(1) {
+  margin-top: 6.25em;
+  color: #fe1e52;
+  animation-delay: -1.2s;
+}
+
+.item:nth-child(1):before {
+  color: #ff6488;
+}
+
+.item:nth-child(1):after {
+  color: #ff416d;
+}
+
+.item:nth-child(2) {
+  margin-top: 3.125em;
+  color: #fe4252;
+  animation-delay: -1s;
+}
+
+.item:nth-child(2):before {
+  color: #ff8892;
+}
+
+.item:nth-child(2):after {
+  color: #ff6572;
+}
+
+.item:nth-child(3) {
+  margin-top: 0em;
+  color: #fe6553;
+  animation-delay: -0.8s;
+}
+
+.item:nth-child(3):before {
+  color: #ffa499;
+}
+
+.item:nth-child(3):after {
+  color: #ff8476;
+}
+
+.item:nth-child(4) {
+  margin-top: -3.125em;
+  color: #fe8953;
+  animation-delay: -0.6s;
+}
+
+.item:nth-child(4):before {
+  color: #ffb999;
+}
+
+.item:nth-child(4):after {
+  color: #ffa176;
+}
+
+.item:nth-child(5) {
+  margin-top: -6.25em;
+  color: #feac54;
+  animation-delay: -0.4s;
+}
+
+.item:nth-child(5):before {
+  color: #ffce9a;
+}
+
+.item:nth-child(5):after {
+  color: #ffbd77;
+}
+
+.item:nth-child(6) {
+  margin-top: -9.375em;
+  color: #fed054;
+  animation-delay: -0.2s;
+}
+
+.item:nth-child(6):before {
+  color: #ffe49a;
+}
+
+.item:nth-child(6):after {
+  color: #ffda77;
+}
+
+/*Pagina PPE*/
+
+.ppe h1 {
+  font-size: 150%;
+  font-family: 'Poppins';
+  margin-top: 5%; /* Colocado no topo */
+  margin-left: 20%; /* Colocado no lado esquerdo */
+  color: rgb(0, 0, 0);
+}
+
